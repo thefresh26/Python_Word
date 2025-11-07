@@ -1,4 +1,4 @@
-"""
+
 #metodo constructor
 
 class Persona:
@@ -18,7 +18,7 @@ doctor = Persona()
 print(f"Su nombre es: {doctor.nombre} y nacio en: {doctor.año}")
 print(f"{doctor.descripcion()}")
 print(f"SR@; {doctor.comentario('PUTOS')}")
-"""
+
 
 
 class Persona:
