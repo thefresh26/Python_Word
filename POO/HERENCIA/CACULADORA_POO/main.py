@@ -8,5 +8,3 @@ n2 = numero.n2
 
 ingresar = Calculadora()
 ingresar.vizulizar(n1,n2)
-
-
