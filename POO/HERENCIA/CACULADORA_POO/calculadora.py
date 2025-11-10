@@ -1,38 +1,32 @@
-from main import inicio
 
-inicio()
+class Calculadora():
 
-class Calculadora(inicio):
-    
-    print("[1]suma")
-    print("[2]resta")
-    print("[3]multiplicacion")
-    print("[4]division")
-    
-    op = int(input("Que opcion desea realizar: "))
-    
-    match op:
-            
-        case 1: 
-            def suma(self):
-                suma = self.n1 + self.n2
-                return 'La suma es: {}'.format(suma)
-                print(suma)
-            
-        case 2:
-            def resta(self):
-                resta = self.n1 - self.n2
-                return 'La resta es: {}'.format(resta)
+    def vizulizar(self,n1 ,n2):
         
-        case 3:
-            def resta(self):
-                multiplicacion = self.n1 * self.n2
-                return 'La resta es: {}'.format(multiplicacion)
+        print("[1]SUMA")
+        print("[2]RESTA")
+        print("[3]MULTIPLICACION")
+        print("[4]DIVISION")
+        op = int(input("Ingrese la opcion que desea realizar: "))
+        
+        match op:
             
-        case 4:
-            def resta(self):
-                division = self.n1 // self.n2
-                return 'La resta es: {}'.format(division)
-
+            case 1:
+                suma = n1 + n2
+                return 'La suma total es: {}'.format(suma)
+            
+            case 2:
+                resta = n1 - n2
+                return 'La resta total es: {}'.format(resta)
+            
+            case 3:
+                multiplicacion = n1 * n2
+                return 'La mulitplicacion total es: {}'.format(multiplicacion)
+            
+            case 4:
+                division = n1 // n2
+                return 'La division  total es: {}'.format(division)
+                
+        
 
  
