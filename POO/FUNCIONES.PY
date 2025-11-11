@@ -4,6 +4,7 @@ try:
         edad = 27
         nombre = "victor"
         pais = "brazil"
+        pais2 = "brazil2"
 
     doctor = Persona()
     print(doctor.edad)
@@ -19,4 +20,3 @@ try:
 
 except AttributeError:
     print("Already no Exist")
-    
