@@ -18,4 +18,4 @@ class Smartphone:
         print("Telefono Apagado")
 
 ver = Smartphone()
-ver.camara()
+ver.Telefono()
