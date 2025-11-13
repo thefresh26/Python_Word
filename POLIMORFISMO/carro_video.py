@@ -1,4 +1,5 @@
 
+
 class auto:
     def accion(self):
         self.estado = input("¿Desea arrancar?: ").lower()
